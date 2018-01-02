@@ -52,4 +52,11 @@ public class Order {
     public void setCreatetime(Date createtime) {
         this.createtime = createtime;
     }
+
+	@Override
+	public String toString() {
+		return "Order [id=" + id + ", userId=" + userId + ", number=" + number + ", note=" + note + ", createtime="
+				+ createtime + "]";
+	}
+    
 }
